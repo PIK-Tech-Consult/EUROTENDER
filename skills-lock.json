@@ -55,6 +55,18 @@
       "skillPath": "skills/clerk-webhooks/SKILL.md",
       "computedHash": "7a9fd8c5c956ad8672eef0592e83df89ce1fc78080a0af9cb853abfe2e549b16"
     },
+    "domain-driven-design": {
+      "source": "wondelai/skills",
+      "sourceType": "github",
+      "skillPath": "domain-driven-design/SKILL.md",
+      "computedHash": "3a84c4c48b3d1bcdf07e6ba096749679f97915dd6b4f9c87ab8a715b936fed30"
+    },
+    "domain-modeling": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/domain-modeling/SKILL.md",
+      "computedHash": "b3eb40152b81f0c98fd2095a023c019452dbdce56f7540cc67fece2972db8369"
+    },
     "shadcn": {
       "source": "shadcn/ui",
       "sourceType": "github",
