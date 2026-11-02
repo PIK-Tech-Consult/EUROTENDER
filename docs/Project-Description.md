@@ -23,6 +23,8 @@ Detailed functional requirements, non-functional requirements, acceptance criter
 
 Confirmed technology choices, proposed system boundaries, and AI processing recommendations are in [Architecture.md](./Architecture.md).
 
+Shared business terminology is in [GLOSSARY.md](../GLOSSARY.md). Business scenarios, candidate context and aggregate boundaries, invariants, and open modeling questions are in [Domain-Model.md](./Domain-Model.md).
+
 ## User experience at a glance
 
 1. The service imports new tenders and their documents from CAIS EPP and tracks changes.
