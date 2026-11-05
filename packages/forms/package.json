@@ -1,0 +1,37 @@
+{
+  "name": "@workspace/forms",
+  "version": "0.0.0",
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --max-warnings 0"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "5.9.1",
+    "@workspace/ui": "workspace:*",
+    "lucide-react": "catalog:",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-hook-form": "7.85.0",
+    "zod": "^4.6.6"
+  },
+  "devDependencies": {
+    "eslint": "^10",
+    "@tailwindcss/postcss": "^4",
+    "@turbo/gen": "^2.11.7",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@workspace/eslint-config": "workspace:*",
+    "@workspace/typescript-config": "workspace:*",
+    "typescript": "^5"
+  },
+  "exports": {
+    ".": "./src/index.tsx",
+    "./lib/*": "./src/lib/*.ts",
+    "./inputs/*": "./src/inputs/*.tsx"
+  }
+}
